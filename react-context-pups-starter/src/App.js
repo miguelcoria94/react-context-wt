@@ -3,10 +3,10 @@ import speedy from './pups/speedy-pup.jpg'
 import banana from './pups/banana-pup.jpg'
 import sleepy from './pups/sleepy-pup.jpg'
 
-function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
-}
+const App = () => (
+  <div id="pup">
+    <img src={speedy} alt='pup' />
+  </div>
+)
 
 export default App;
