@@ -29,4 +29,4 @@ class AppWithContext extends React.Component {
   }
 }
 
-export default App;
+export default AppWithContext;
